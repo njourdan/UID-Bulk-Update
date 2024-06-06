@@ -1,33 +1,38 @@
 import fs from 'fs';
 import csv from 'csv-parser';
-
-export const parseAttributeMapping = (filePath, callback) => {
-  const results = {};
-  let currentAttributeSet = '';
-
-  fs.createReadStream(filePath)
-    .pipe(csv({ headers: ['Header', 'header', 'value'], skipLines: 1 }))
-    .on('data', (row) => {
-      const { Header, header, value: newValue } = row;
-      if (Header) {
-        currentAttributeSet = Header.trim();
-        results[currentAttributeSet] = [];
-      } else if (header && newValue) {
-        results[currentAttributeSet].push({
-          Attribute: header.trim(),
-          'New Value': newValue.trim(),
+import { parse } from 'csv-parse/sync';
+export const parseAttributeMapping = async (filePath) => {
+    return new Promise((resolve, reject) => {
+      const results = {};
+      let currentAttributeSet = '';
+  
+      fs.createReadStream(filePath)
+        .pipe(csv({ headers: ['Header', 'header', 'value'], skipLines: 1 }))
+        .on('data', (row) => {
+          const { Header, header, value: newValue } = row;
+          if (Header) {
+            currentAttributeSet = Header.trim();
+            results[currentAttributeSet] = [];
+          } else if (header && newValue) {
+            results[currentAttributeSet].push({
+              'typeName': header.trim(),
+              'value': newValue.trim(),
+            });
+          }
+        })
+        .on('end', () => {
+          resolve(results);
+        })
+        .on('error', (error) => {
+          reject(error);
         });
-      }
-    })
-    .on('end', () => {
-      callback(results);
     });
-};
+  };
 export const parseUIDList = (filePath) => {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const records = parse(fileContent, {
       columns: true,
       skip_empty_lines: true
     });
-    return records[0];
+    return records.map(item => item.UID);;
   };
