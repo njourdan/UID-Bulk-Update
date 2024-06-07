@@ -3,6 +3,7 @@ test.js
 test.json
 exampleUidINFO.json
 node_modules
-CSVs\Attributemapping.csv
-CSVs\fails.csv
-CSVs\UIDlist.csv
+Attributemapping.csv
+fails.csv
+UIDlist.csv
+CSVs
