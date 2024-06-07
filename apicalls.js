@@ -10,7 +10,6 @@ export async function razorCall(endPoint,options = {}){
     };
     options.headers = { ...defaultHeaders, ...options.headers };
     options.method = options.method || "GET";
-
     const response = await fetch(url, options);
-    return await response.json();
+    return await response;
 }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razor Bulk Updater</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  <script type="module" src="./script.js"></script>
+</head>
+<body>
+  <h1>Upload Two CSV Files</h1>
+  <form id="csv-form">
+    <label for="attributeMapping">Attribute Mapping:</label>
+    <input type="file" id="attributeMapping" accept=".csv"><br><br>
+    <label for="uidList">UID List:</label>
+    <input type="file" id="uidList" accept=".csv"><br><br>
+    <button type="button" onclick="processFiles()">Run Main</button>
+  </form>
+</body>
+</html>

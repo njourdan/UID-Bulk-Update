@@ -1,6 +1,7 @@
 import fs from 'fs';
 import csv from 'csv-parser';
 import { parse } from 'csv-parse/sync';
+import {createObjectCsvWriter} from 'csv-writer'
 export const parseAttributeMapping = async (filePath) => {
     return new Promise((resolve, reject) => {
       const results = {};
@@ -36,3 +37,12 @@ export const parseUIDList = (filePath) => {
     });
     return records.map(item => item.UID);;
   };
+export const addToFailList = createObjectCsvWriter({
+  path: './CSVs/fails.csv',
+  header: [
+    {id: 'UID', title: 'UID'},
+    {id: 'Reason', title: 'Reason'}
+
+  ],
+  append: fs.existsSync('./CSVs/fails.csv')
+})
