@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razor Bulk Updater</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script type="module" src="./script.js"></script>
+  <style>
+    #progressContainer {
+      width: 100%;
+      background-color: #f3f3f3;
+    }
+    #progressBar {
+      width: 0%;
+      height: 30px;
+      background-color: #4caf50;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Upload Mapping and UIDs</h1>
+  <form id="csv-form">
+    <label for="apiKey">API Key:</label>
+    <input type="text" id="apiKey" placeholder="Enter your API key"><br><br>
+    <label for="csvFile1">Attribute Mapping:</label>
+    <input type="file" id="csvFile1" accept=".csv"><br><br>
+    <label for="csvFile2">UID List:</label>
+    <input type="file" id="csvFile2" accept=".csv"><br><br>
+    <button type="button" onclick="processFiles()">Run Main</button>
+  </form>
+
+  <h2>Processing Progress</h2>
+  <div id="progressContainer">
+    <div id="progressBar">0%</div>
+  </div>
+
+  <h2>Failed Entries</h2>
+  <table id="failedEntriesTable">
+    <thead>
+      <tr>
+        <th>UID</th>
+        <th>Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Failed entries will be added here -->
+    </tbody>
+  </table>
+  <button type="button" onclick="downloadFailedEntries()">Download Failed Entries</button>
+</body>
+</html>
