@@ -1,102 +1,102 @@
-Attribute Set,Attribute,New Value,,,,,,,,,,,,,,,,,,,,,,,
-*Access Points,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power POE TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Ethernet Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,WIFI TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*CPU,,,,,,,,,,,,,,,,,,,,,,,,,
-,Post TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Stability TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Desktops,,,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Motherboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Expansion Slots TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Graphics Card,,,,,,,,,,,,,,,,,,,,,,,,,
-,Outputs TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Audio TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*HDDs,,,,,,,,,,,,,,,,,,,,,,,,,
-,-,-,,,,,,,,,,,,,,,,,,,,,,,
-*Keyboards,,,,,,,,,,,,,,,,,,,,,,,,,
-,Key TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Controls TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Laptops,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Screen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Touchscreen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Battery Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Speaker TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Battery TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Card Reader TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Wencam TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Motherboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Keyboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*MacBooks,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Motherboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Keyboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Screen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Touchscreen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Battery Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Battery TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Speaker TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Card Reader TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Webcam TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Memory,,,,,,,,,,,,,,,,,,,,,,,,,
-,Data TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Monitors,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Screen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Inputs TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Controls TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Touchscreen TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Factory Reset,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Outputs TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Audio TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Motherboard,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Outputs TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Ethernet Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,WIFI TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Expansion Slots TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Audio TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Factory Reset,successful,,,,,,,,,,,,,,,,,,,,,,,
-*NAS,,,,,,,,,,,,,,,,,,,,,,,,,
-,Drive Bay TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Servers,,,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Motherboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Outputs TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Ethernet Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Expansion Slots TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Factory Reset,successful,,,,,,,,,,,,,,,,,,,,,,,
-*SSDs,,,,,,,,,,,,,,,,,,,,,,,,,
-,-,-,,,,,,,,,,,,,,,,,,,,,,,
-*Switches,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Ethernet Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Console Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Interconnect Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,RPS Power Connector TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-*Workstations,,,,,,,,,,,,,,,,,,,,,,,,,
-,Power Supply TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Motherboard TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,CPU TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Memory TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Port TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
-,Expansion Slots TEST,successful,,,,,,,,,,,,,,,,,,,,,,,
+Attribute Set,Attribute,New Value
+*Access Points,,
+,Power POE TEST,successful
+,Ethernet Port TEST,successful
+,WIFI TEST,successful
+*CPU,,
+,Post TEST,successful
+,Stability TEST,successful
+*Desktops,,
+,CPU TEST,successful
+,Memory TEST,successful
+,Motherboard TEST,successful
+,Power Supply TEST,successful
+,Expansion Slots TEST,successful
+,Port TEST,successful
+*Graphics Card,,
+,Outputs TEST,successful
+,Audio TEST,successful
+*HDDs,,
+,-,-
+*Keyboards,,
+,Key TEST,successful
+,Controls TEST,successful
+*Laptops,,
+,Power Supply TEST,successful
+,Screen TEST,successful
+,Touchscreen TEST,successful
+,Battery Port TEST,successful
+,Port TEST,successful
+,Speaker TEST,successful
+,Battery TEST,successful
+,Card Reader TEST,successful
+,Wencam TEST,successful
+,CPU TEST,successful
+,Motherboard TEST,successful
+,Memory TEST,successful
+,Keyboard TEST,successful
+*MacBooks,,
+,Power Supply TEST,successful
+,Motherboard TEST,successful
+,CPU TEST,successful
+,Memory TEST,successful
+,Keyboard TEST,successful
+,Screen TEST,successful
+,Touchscreen TEST,successful
+,Battery Port TEST,successful
+,Battery TEST,successful
+,Speaker TEST,successful
+,Card Reader TEST,successful
+,Webcam TEST,successful
+,Port TEST,successful
+*Memory,,
+,Data TEST,successful
+*Monitors,,
+,Power Supply TEST,successful
+,Screen TEST,successful
+,Inputs TEST,successful
+,Controls TEST,successful
+,Touchscreen TEST,successful
+,Factory Reset,successful
+,Outputs TEST,successful
+,Audio TEST,successful
+*Motherboards,,
+,Power Supply TEST,successful
+,Outputs TEST,successful
+,Port TEST,successful
+,Memory TEST,successful
+,CPU TEST,successful
+,Ethernet Port TEST,successful
+,WIFI TEST,successful
+,Expansion Slots TEST,successful
+,Audio TEST,successful
+,Factory Reset,successful
+*NAS,,
+,Drive Bay TEST,successful
+,Power Supply TEST,successful
+,Port TEST,successful
+*Servers,,
+,Memory TEST,successful
+,Motherboard TEST,successful
+,Power Supply TEST,successful
+,Outputs TEST,successful
+,Port TEST,successful
+,CPU TEST,successful
+,Ethernet Port TEST,successful
+,Expansion Slots TEST,successful
+,Factory Reset,successful
+*SSDs,,
+,-,-
+*Switches,,
+,Power Supply TEST,successful
+,Ethernet Port TEST,successful
+,Console Port TEST,successful
+,Interconnect Port TEST,successful
+,RPS Power Connector TEST,successful
+*Workstations,,
+,Power Supply TEST,successful
+,Motherboard TEST,successful
+,CPU TEST,successful
+,Memory TEST,successful
+,Port TEST,successful
+,Expansion Slots TEST,successful

@@ -2,8 +2,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 const API_KEY = process.env.API_KEY
 
-export async function razorCall(endPoint,options = {}){
+export async function razorCall(endPoint, options = {}) {
     const url = `https://apiprod.razorerp.com/api/v1/${endPoint}`;
+    console.log(url);
     const defaultHeaders = {
         'Accept': 'application/json',
         'Authorization': `Bearer ${API_KEY}`,
